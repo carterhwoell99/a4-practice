@@ -1,0 +1,41 @@
+body {
+	
+background-color:	orange;
+	
+}
+
+#banner {
+	background-color:#E91E63;
+	background: linear-gradient(red, yellow);
+}
+
+h1	{
+color: white;
+text-align: center;
+    text-shadow: 2px 2px red;
+}
+
+p	{
+color: white;
+text-align: center;
+}
+
+
+h2	{
+color: white;
+text-align: center;
+}
+
+img	{
+display: block;
+margin: auto;
+}
+
+#hotpic {
+	border-style: ridge;
+	border-width: 20px;
+	border-color red;
+	padding: 30px;
+	box-shadow 10px 10px 20px #0000FF;
+}
+
