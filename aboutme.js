@@ -1,31 +1,27 @@
 $(document).ready(function() {
-	
+
 	$("myinfo").hide();
-	
+
 	$("aboutme").click(function() {
-		
+
 		$("#myinfo").fadeToggle(500);
-			
-});
 
+	});
 
-	// start of mouseover	
-	
-	$("#mousechange").mouseenter (function() {
-		
+	// start of mouseover
+
+	$("#mousechange").mouseenter(function() {
+
 		$(this).css("font-size", "2.5em");
-		$(this).css("color","#0000FF");
-		
-		
+		$(this).css("color", "#0000FF");
+
 	});
-	
+
 });
 
+$("#mousechange").mouseleave(function() {
 
-	$("#mousechange").mouseleave (function() {
-		
-		$(this).css("font-size", "2em");
-		$(this).css("color","#000000");
-		
-		
-	});
+	$(this).css("font-size", "2em");
+	$(this).css("color", "#000000");
+
+}); 

@@ -1,0 +1,35 @@
+body {
+	background-color: red;
+	color: white;
+}
+
+#aboutme {
+	padding: 15px 32px;
+	text-align: center;
+	background-color: green;
+}
+
+#bannerpic {
+
+	float: right;
+	margin: 15px;
+	border-style: ridge;
+	border-width: 10px;
+	background-color: red;
+}
+
+#banner {
+
+	margin-left: 25px;
+	margin-right: 50px;
+}
+
+
+head {
+	background-color: green;
+}
+
+#vid {
+	border-style: ridge;
+	border-width: 15px;
+}
